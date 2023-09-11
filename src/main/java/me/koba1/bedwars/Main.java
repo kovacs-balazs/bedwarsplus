@@ -153,7 +153,7 @@ public final class  Main extends JavaPlugin {
 //BRO BSAZODJÁÁÁ ?MEGGEGGGG//
         new BukkitRunnable() {
             @Override
-            public void run() {
+            public void run() { ///
                 for (Player onlinePlayer : Bukkit.getOnlinePlayers()) {
                     BedwarsPlayer online = BedwarsPlayer.getPlayer(onlinePlayer);
 
