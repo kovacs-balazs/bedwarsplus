@@ -1,0 +1,16 @@
+default_layout:
+  - page: blocks
+    item: 1
+    slot: 19
+
+lore_quickbuy_preview:
+  - "&7This is a Quick Buy Slot!"
+  - ""
+  - "&eLeft Click &7to set an item in this slot."
+  - "&eRight Click &7to remove this item."
+
+lore_quickbuy_editor:
+  - "%description%"
+  - ""
+  - "&eClick to add this item to your"
+  - "&eQuick Buy!"

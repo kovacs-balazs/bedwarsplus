@@ -1,0 +1,134 @@
+#
+#   Template bedwars config
+#
+display-name: "&4&ltemplate"
+world: "world"
+mode: "MODE_SOLO"
+
+minPlayer: 1
+maxPlayers: 8
+startTime: 10
+
+minY: -5
+maxY: 50
+
+spawn-block-protection: 4
+
+lobby-spawn:
+  ==: org.bukkit.Location
+  world: world
+  x: 25.0
+  y: 68.0
+  z: -30.0
+  pitch: 24.687038
+  yaw: 29.410252
+
+team_spawns:
+  RED:
+    ==: org.bukkit.Location
+    world: world
+    x: 19.0
+    y: 69.0
+    z: -30.0
+    pitch: 24.687038
+    yaw: 29.410252
+  BLUE:
+    ==: org.bukkit.Location
+    world: world
+    x: 25.0
+    y: 69.0
+    z: -24.0
+    pitch: 24.687038
+    yaw: 29.410252
+  YELLOW:
+    ==: org.bukkit.Location
+    world: world
+    x: 25.0
+    y: 68.0
+    z: -37.0
+    pitch: 24.687038
+    yaw: 29.410252
+  WHITE:
+    ==: org.bukkit.Location
+    world: world
+    x: 35.0
+    y: 70.0
+    z: -34.0
+    pitch: 24.687038
+    yaw: 29.410252
+
+bed_spawns:
+  RED:
+    ==: org.bukkit.Location
+    world: world
+    x: 18.0
+    y: 69.0
+    z: -30.0
+    pitch: 24.687038
+    yaw: 29.410252
+  BLUE:
+    ==: org.bukkit.Location
+    world: world
+    x: 25.0
+    y: 69.0
+    z: -23.0
+    pitch: 24.687038
+    yaw: 29.410252
+  YELLOW:
+    ==: org.bukkit.Location
+    world: world
+    x: 25.0
+    y: 68.0
+    z: -38.0
+    pitch: 24.687038
+    yaw: 29.410252
+  WHITE:
+    ==: org.bukkit.Location
+    world: world
+    x: 36.0
+    y: 70.0
+    z: -34.0
+    pitch: 24.687038
+    yaw: 29.410252
+
+generators:
+  - ==: me.koba1.bedwars.utils.objects.Generator
+    type: diamond
+    location:
+      ==: org.bukkit.Location
+      world: world
+      x: 16.5
+      y: 68.0
+      z: -22.5
+      pitch: 0
+      yaw: 0
+  - ==: me.koba1.bedwars.utils.objects.Generator
+    type: gold
+    location:
+      ==: org.bukkit.Location
+      world: world
+      x: 16.5
+      y: 68.0
+      z: -24.5
+      pitch: 0
+      yaw: 0
+  - ==: me.koba1.bedwars.utils.objects.Generator
+    type: iron
+    location:
+      ==: org.bukkit.Location
+      world: world
+      x: 16.5
+      y: 68.0
+      z: -26.5
+      pitch: 0
+      yaw: 0
+  - ==: me.koba1.bedwars.utils.objects.Generator
+    type: emerald
+    location:
+      ==: org.bukkit.Location
+      world: world
+      x: 16.5
+      y: 68.0
+      z: -28.5
+      pitch: 0
+      yaw: 0

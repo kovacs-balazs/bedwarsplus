@@ -1,0 +1,56 @@
+blocks:
+  1:
+    material: WHITE_WOOL
+    display_name: "&aWool"
+    lore:
+      - "&7Cost: &f4 Iron"
+      - ""
+      - "&7Great for bridging across"
+      - "&7islands. Turns into your team's"
+      - "&7color."
+      - ""
+      - "&bSneak Click &7to remove this item"
+      - "&7from your Quick Buy!"
+    slot: 19
+    # Available price (item): iron, gold, emerald
+    # Example:
+    # "16 iron"
+    cost: "4 iron"
+    amount: 16
+    team_color: true
+  2:
+    material: OAK_PLANKS
+    display_name: "&aPlanks"
+    lore:
+      - "&7Cost: &64 Gold"
+      - ""
+      - "&7Great for bridging across"
+      - "&7islands. Turns into your team's"
+      - "&7color."
+      - ""
+      - "&bSneak Click &7to remove this item"
+      - "&7from your Quick Buy!"
+    slot: 20
+    # Available price (item): iron, gold, emerald
+    # Example:
+    # "16 iron"
+    cost: "4 gold"
+    amount: 16
+  3:
+    material: END_STONE
+    display_name: "&aEnd Stone"
+    lore:
+      - "&7Cost: &f24 Iron"
+      - ""
+      - "&7Great for bridging across"
+      - "&7islands. Turns into your team's"
+      - "&7color."
+      - ""
+      - "&bSneak Click &7to remove this item"
+      - "&7from your Quick Buy!"
+    slot: 21
+    # Available price (item): iron, gold, emerald
+    # Example:
+    # "16 iron"
+    cost: "24 iron"
+    amount: 12

@@ -1,0 +1,14 @@
+name: BedWars
+version: '1.0.0'
+main: me.koba1.bedwars.Main
+api-version: '1.18'
+authors: [ koba1, adbi20014 ]
+description: The worst bedwars plugin
+depend:
+  - ProtocolLib
+
+commands:
+  bedwars:
+    aliases: [ bedw, bwars, bw ]
+  party:
+    aliases: [ p ]

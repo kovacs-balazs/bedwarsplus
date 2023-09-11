@@ -1,0 +1,140 @@
+
+#Under the "Default" configuration section there is the configuration for all the arena groups
+#without a specified configuration. If you don't know what an arena group is you should read
+#about them here: https://wiki.andrei1058.dev/docs/BedWars1058/setup/arena-groups
+Default:
+  #This contains the default settings for the iron generator on a team base
+  #A player can change those values for his team buying upgrades
+  #from the team upgrades NPC
+  iron:
+    #This is the iron-spawn delay in seconds
+    delay: 2
+    #How many iron ingots to spawn at once
+    amount: 2
+    #If the amount of iron ingots spawned on your generator
+    #is equal to this, it won't spawn items anymore until
+    #you collect the dropped items.
+    spawn-limit: 32
+
+  #This contains the settings for the gold generator on a team base
+  #A player can change those values for his team buying upgrades
+  #from the team upgrades NPC
+  gold:
+    #This is the gold-spawn delay in seconds
+    delay: 6
+    #How many gold ingots to spawn at once
+    amount: 2
+    #If the amount of gold ingots spawned on your generator
+    #is equal to this, it won't spawn items anymore until
+    #you collect the dropped items.
+    spawn-limit: 7
+
+  #This contains the settings for the diamond generators on a map
+  diamond:
+    #Settings for tier I
+    1:
+      #This is the diamond-spawn delay in seconds
+      delay: 30
+      #If the amount of diamonds spawned on a generator
+      #is equal to this, it won't spawn items anymore until
+      #you collect the dropped items
+      spawn-limit: 4
+
+    #Settings for tier II
+    2:
+      #This is the diamond-spawn delay in seconds
+      delay: 20
+      #If the amount of diamonds spawned on a generator
+      #is equal to this, it won't spawn items anymore until
+      #you collect the dropped items.
+      spawn-limit: 6
+      #When to upgrade diamond generators tier
+      #Time in seconds
+      #Upgrade after 360 seconds since the game start
+      start: 360
+
+    #Settings for tier III
+    3:
+      #This is the diamond-spawn delay in seconds
+      delay: 15
+      #If the amount of diamonds spawned on a generator
+      #is equal to this, it won't spawn items anymore until
+      #you collect the dropped items.
+      spawn-limit: 8
+      #When to upgrade diamond generators tier
+      #Time in seconds
+      #Upgrade after 1080 seconds since tier II upgrade
+      start: 1080
+  emerald:
+    #Settings for tier I
+    1:
+      #This is the emerald-spawn delay in seconds
+      delay: 70
+      #If the amount of emeralds spawned on a generator
+      #is equal to this, it won't spawn items anymore until
+      #you collect the dropped items.
+      spawn-limit: 4
+
+    #Settings for tier II
+    2:
+      #This is the emerald-spawn delay in seconds
+      delay: 50
+      #If the amount of emeralds spawned on a generator
+      #is equal to this, it won't spawn items anymore until
+      #you collect the dropped items.
+      spawn-limit: 6
+      #When to upgrade emerald generators tier
+      #Time in seconds
+      #Upgrade after 720 seconds since the game start
+      start: 720
+
+    #Settings for tier III
+    3:
+      #This is the emerald-spawn delay in seconds
+      delay: 30
+      #If the amount of emeralds spawned on a generator
+      #is equal to this, it won't spawn items anymore until
+      #you collect the dropped items.
+      spawn-limit: 8
+      #When to upgrade emerald generators tier
+      #Time in seconds
+      #Upgrade after 1440 seconds since tier II upgrade
+      start: 1440
+
+#Set this to true if you want to stack
+#the dropped items from generators
+stack-items: false
+
+4v4v4v4:
+  iron:
+    delay: 2
+    amount: 2
+    spawn-limit: 32
+  gold:
+    delay: 6
+    amount: 2
+    spawn-limit: 7
+  diamond:
+    1:
+      delay: 30
+      spawn-limit: 4
+    2:
+      delay: 20
+      spawn-limit: 6
+      start: 360
+    3:
+      delay: 15
+      spawn-limit: 8
+      start: 1080
+  emerald:
+    1:
+      delay: 70
+      spawn-limit: 4
+    2:
+      delay: 50
+      spawn-limit: 6
+      start: 720
+    3:
+      delay: 30
+      spawn-limit: 8
+      start: 1440

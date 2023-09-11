@@ -1,0 +1,10 @@
+language: "en"
+# Link ide a timezoneokról
+timezone: "Europe/Budapest"
+
+storage:
+  # Available methods: SQlite, MongoDB, flatfile
+  storage_method: SQLite
+
+  mongodb_url: "URL"
+  mongodb_database: "DATABASE"
